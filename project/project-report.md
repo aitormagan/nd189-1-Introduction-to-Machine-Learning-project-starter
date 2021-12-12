@@ -16,8 +16,8 @@ I did the project in two different days. The first day I completed the basic par
 
 The third model was the one with the best performance.
 
-On a different day, as can be seen in the notebook, I tried additional hyperparameters optimization plus adding new
-features, but I was unable to obtain a model with better performance than the one I obtained on the first day.
+On a different day, as can be seen in the notebook, I tried to include extra features but the results weren't much 
+better than the ones I obtained the first day.
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
@@ -39,15 +39,12 @@ The reason can be than the more significant features we provide, the best the mo
 
 ## Hyper parameter tuning
 ### How much better did your model preform after trying different hyper parameters?
-I don't understand too much how hyperparameters can be modified as it seems like black magic to me. I tried to train
-the model with `hyperparameter_tune_kwargs='auto'` and Kaggle score improved to `0.4684` which is not much better than
-the result I obtained just with new features. 
-
-On a different day, I also tried to increase the traning time, but I don't know why I obtained a much worse score. 
-Specifically, I got `0.56132`
+I don't understand too much how hyperparameters can be modified as it seems like black magic to me. I tried different 
+values for `num_bag_folds` and `num_stack_levels` as stated in the table below, but the improvement is not very 
+significant as scored increased from `0.4780` to `0.46811`.
 
 ### If you were given more time with this dataset, where do you think you would spend more time?
-Adding extra features. 
+Adding extra features and trying different values for the hyperparameters. 
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|time|num_bag_folds|num_stack_levels|score|
