@@ -50,7 +50,12 @@ Specifically, I got `0.56132`
 Adding extra features. 
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
-N/A
+|model|time|num_bag_folds|num_stack_levels|score|
+|--|--|--|--|--|
+|add_features|600|5|1|0.46811|
+|add_features|600|10|3|0.48236|
+|add_features|600|8|2|0.47674|
+
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
