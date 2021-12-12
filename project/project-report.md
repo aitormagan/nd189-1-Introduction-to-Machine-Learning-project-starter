@@ -23,7 +23,7 @@ better than the ones I obtained the first day.
 ### What did the exploratory analysis find and how did you add additional features?
 I added new features according to the instructions you provided in the notebook:
 
-1. Split datetime into year, month, day and hour
+1. Split `datetime` into `year`, `month`, `day` and `hour`
 2. Set `sesaon` and `weather` as category
 
 Additionally, I created new features based on the instructions provided on the submit page:
