@@ -68,12 +68,8 @@ Adding extra features and trying different values for the hyperparameters.
 ![model_test_score.png](img/model_test_score.png)
 
 ## Summary
-From this leason, I have been able to understad how to create models with AutoGlun, which can be very useful when 
-trying to apply ML at work. I also learned that adding new features and typing the ones you already have, is very 
-important to obtain better performance.
-
-On my second day, I started with the basic `train` set and I created a first models. With this model, I got a score of
-`0.56132` on Kaggle. By adding new features such as `wind_type`, `temp_type` and `time_slot` I was able to improve this
-score to `0.479`.
+From this leason, I have been able to understad how to create models with AutoGluon, which can be very useful when 
+trying to apply ML at work. I also learned that adding new features from the existing data can be very helpful for 
+obtaining a significant performance improvement. 
 
 However, I was unable to obtain a significan better performance by modifying the hyperparameters. 
