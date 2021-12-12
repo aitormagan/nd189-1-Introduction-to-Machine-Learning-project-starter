@@ -38,6 +38,10 @@ Spliting date and setting `season` and `weather` allow me to improve by Kaggle s
 The reason can be than the more significant features we provide, the best the model perfoms. 
 
 ## Hyper parameter tuning
+
+> Note: Hyperparameters optimization has been completed in a separated notebook (`hyperparameters.ipynb`) as the main 
+one is too big and my machine was unable to handle it.
+
 ### How much better did your model preform after trying different hyper parameters?
 I don't understand too much how hyperparameters can be modified as it seems like black magic to me. I tried different 
 values for `num_bag_folds` and `num_stack_levels` as stated in the table below, but the improvement is not very 
